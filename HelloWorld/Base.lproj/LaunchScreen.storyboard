@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="R6S-GG-QnL">
-                                <rect key="frame" x="16" y="430.66666666666669" width="398" height="71"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="59"/>
+                                <rect key="frame" x="16" y="431.66666666666669" width="398" height="69"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="59"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
