@@ -16,19 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="R6S-GG-QnL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BbQ-1U-Tyx">
                                 <rect key="frame" x="16" y="431.66666666666669" width="398" height="69"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="59"/>
-                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R6S-GG-QnL" secondAttribute="trailing" constant="16" id="2gP-9a-p5n"/>
-                            <constraint firstItem="R6S-GG-QnL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JpA-0G-8Mm"/>
-                            <constraint firstItem="R6S-GG-QnL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="riD-wq-K49"/>
+                            <constraint firstItem="BbQ-1U-Tyx" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="10a-qL-Vnl"/>
+                            <constraint firstAttribute="trailing" secondItem="BbQ-1U-Tyx" secondAttribute="trailing" constant="16" id="8AK-HO-uhF"/>
+                            <constraint firstItem="BbQ-1U-Tyx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="azH-vs-N2B"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,9 +40,6 @@
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="secondarySystemGroupedBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
